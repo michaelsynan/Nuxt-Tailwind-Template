@@ -1,3 +1,3 @@
 # Nuxt-Tailwind
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nuxt-starter-v8zsdv)
+Created so I didn't have to install Tailwind anymore :D
