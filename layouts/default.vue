@@ -2,7 +2,6 @@
 
 <template>
   <div>
-    Layout: default
     <NuxtPage />
   </div>
 </template>
