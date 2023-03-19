@@ -30,3 +30,6 @@ npm run dev
 
 ## Roadmap
  - [ ] Components Layer via extends
+
+## Deploy Static Site to GitHub Pages
+See this [gist](https://gist.github.com/michaelsynan/307a267eff9b35e1b7f333da5e151e99). 
