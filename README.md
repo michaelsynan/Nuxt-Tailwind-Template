@@ -27,4 +27,4 @@ npm run dev
 ```
 
 ## Roadmap
- - [] Components Layer via extends.
+ - [ ] Components Layer via extends
