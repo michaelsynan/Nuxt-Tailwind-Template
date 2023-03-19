@@ -4,20 +4,24 @@
 
 @layer base {
 
+    body {
+        @apply bg-stone-900 text-stone-100;
+    }
+
     h1 {
-        @apply text-2xl font-bold md:text-4xl;
+        @apply text-2xl font-bold md:text-4xl pb-4 pt-2;
     }
 
     h2 {
-        @apply text-xl font-bold md:text-3xl;
+        @apply text-xl font-bold md:text-3xl py-2;
     }
 
     h3 {
-        @apply text-lg font-bold md:text-2xl;
+        @apply text-lg font-bold md:text-2xl py-1;
     }
 
     h4 {
-        @apply text-base font-bold md:text-lg;
+        @apply text-base font-bold md:text-lg py-1;
     }
 
     body {
@@ -31,5 +35,5 @@
     li {
         @apply list-inside;
     }
-    
+
 }
