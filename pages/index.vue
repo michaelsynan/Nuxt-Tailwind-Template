@@ -12,6 +12,9 @@
       <div class="col-span-1">
         <PiniaComponent />
       </div>
+      <div class="col-span-2">
+        Visit on <nuxt-link to="https://github.com/michaelsynan/Nuxt-Tailwind-Template">GitHub</nuxt-link>.
+      </div>
     </div>
   </div>
 </template>

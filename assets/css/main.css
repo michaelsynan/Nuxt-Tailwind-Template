@@ -29,6 +29,10 @@
         @apply text-sm md:text-base;
     }
 
+    a {
+        @apply border-b border-dotted hover:border-solid hover:border-b-2
+    }
+
     ul {
         @apply list-disc;
     }
