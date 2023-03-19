@@ -9,7 +9,7 @@ Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets
 **Includes** 👇
 - TailwindCSS ([docs](https://tailwindcss.com/docs/installation))
 - Pinia ([docs](https://pinia.vuejs.org/core-concepts/))
-- Reasonable base styles
+- Basic base styles
 - Pages directory
 - Default layout
 

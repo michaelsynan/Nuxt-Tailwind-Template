@@ -3,7 +3,7 @@
 <template>
   <div>
     <h1>
-    Component: MainHeader
+    Main Header Component
     </h1>
   </div>
 </template>

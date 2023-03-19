@@ -5,14 +5,17 @@ const items = store.items
 </script>
 
 <template>
-  <MainHeader />
-  <div>Page: foo</div>
-  <div v-for="(item, index) in items" :key="index">
-    {{ item.name }}
+  <div>
+    <div class="grid grid-cols-2 mx-auto max-w-6xl">
+      <div class="col-span-1">
+        <MainHeader />
+      </div>
+      <div class="col-span-1">
+        <PiniaComponent />
+      </div>
     </div>
+  </div>
 </template>
 
 
-<style scoped>
-
-</style>
+<style scoped></style>

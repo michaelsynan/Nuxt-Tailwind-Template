@@ -24,4 +24,12 @@
         @apply text-sm md:text-base;
     }
 
+    ul {
+        @apply list-disc;
+    }
+
+    li {
+        @apply list-inside;
+    }
+    
 }
