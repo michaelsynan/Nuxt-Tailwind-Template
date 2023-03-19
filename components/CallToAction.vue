@@ -3,7 +3,7 @@
 <template>
   <div>
     <h1>
-    Main Header Component
+    Call To Action Component
     </h1>
   </div>
 </template>

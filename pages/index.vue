@@ -5,10 +5,13 @@ const items = store.items
 </script>
 
 <template>
-  <div>
-    <div class="grid grid-cols-2 mx-auto max-w-6xl">
+  <div class="flex h-screen justify-center items-center">
+    <div class="grid grid-cols-2 gap-x-20">
+      <div class="col-span-2">
+        <h1 class="text-5xl font-bold">Nuxt Tailwind Template w/ Pinia 🎉</h1>
+      </div>
       <div class="col-span-1">
-        <MainHeader />
+        <CallToAction />
       </div>
       <div class="col-span-1">
         <PiniaComponent />
