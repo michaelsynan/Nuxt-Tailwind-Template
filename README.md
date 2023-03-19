@@ -1,5 +1,5 @@
 
-![alt text](/public/screenshot.png)
+![Nuxt TailwindCSS Pinia Template Repo](/public/screenshot.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/michaelsynan/Nuxt-Tailwind-Template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
