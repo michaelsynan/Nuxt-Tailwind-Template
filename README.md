@@ -1,8 +1,8 @@
 # Nuxt Tailwind Template with Pinia
 
-Created so I didn't have to install Tailwind anymore :D
+Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets, layouts, pages and components directories set up. 
 
-Includes:
+Includes
 - TailwindCSS
 - Pinia
 - Reasonable base styles
