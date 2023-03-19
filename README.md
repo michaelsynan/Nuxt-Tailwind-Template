@@ -15,6 +15,10 @@ Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets
 
 **Instructions**
 ```
+git clone https://github.com/michaelsynan/Nuxt-Tailwind-Template.git
+
+cd Nuxt-Tailwind-Template/
+
 npm install
 
 npm run dev
