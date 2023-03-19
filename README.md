@@ -6,6 +6,8 @@
 
 # Nuxt Tailwind Template with Pinia 🎉
 
+Website demo: https://michaelsynan.github.io/Nuxt-Tailwind-Template/
+
 Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets, layouts, pages and components directories set up. 
 
 **Includes** 👇
