@@ -12,5 +12,12 @@
     "nuxt": "^3.3.1",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "pinia": "^2.0.33"
   }
 }
