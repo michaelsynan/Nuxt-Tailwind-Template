@@ -13,7 +13,7 @@ Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets
 - Pages directory
 - Default layout
 
-**Instructions**
+## Instructions
 ```
 git clone https://github.com/michaelsynan/Nuxt-Tailwind-Template.git
 
