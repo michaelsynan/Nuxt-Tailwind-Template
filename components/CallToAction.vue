@@ -2,9 +2,9 @@
 
 <template>
   <div>
-    <h1>
+    <h2>
       Call To Action Component
-    </h1>
+    </h2>
     <div class="text-xl">
       Some CTA text
     </div>
