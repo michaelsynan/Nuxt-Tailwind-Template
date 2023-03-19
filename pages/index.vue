@@ -1,8 +1,4 @@
-<script lang="ts" setup>
-import { useStore } from '@/store'
-const store = useStore()
-const items = store.items
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="flex h-screen justify-center items-center">
