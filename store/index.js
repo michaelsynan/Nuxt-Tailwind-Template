@@ -5,17 +5,22 @@ export const useStore = defineStore({
   state: () => ({
     "items": [
       {
-        "name": "item 1",
+        "name": "Nuxt 3",
         "id": "1",
         "description": "Description 1",
       },
       {
-        "name": "item 2",
+        "name": "TailwindCSS",
         "id": "2",
         "description": "Description 2",
       },
       {
-        "name": "item 3",
+        "name": "Pinia",
+        "id": "3",
+        "description": "Description 3",
+      }, 
+      {
+        "name": "Unplugin-Icons",
         "id": "3",
         "description": "Description 3",
       }, 

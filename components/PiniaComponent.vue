@@ -6,8 +6,8 @@ const items = store.items
 
 <template>
   <div>
-    <h2>Pinia Component</h2>
-    <div class="text-lg">Store Items:</div>
+    <div class="text-xs text-stone-500">Pinia Component</div>
+    <h2>Starter Includes:</h2>
     <ul>
     <li v-for="(item, index) in items" :key="index">
       {{ item.name }}
