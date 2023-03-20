@@ -33,7 +33,7 @@ npm run dev
 See this [gist](https://gist.github.com/michaelsynan/307a267eff9b35e1b7f333da5e151e99). 
 
 ## Roadmap
- - [ ] Components Layer via extends
- - [ ] Nuxt 3 Beginners guide
+ - [ ] [Components Layer](https://github.com/michaelsynan/nuxt-base-layer) via extends
+ - [ ] Nuxt 3 Beginners Guide
  
  <br />
