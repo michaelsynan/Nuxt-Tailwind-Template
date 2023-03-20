@@ -13,7 +13,9 @@
         <PiniaComponent />
       </div>
       <div class="col-span-2">
-        Visit on <nuxt-link to="https://github.com/michaelsynan/Nuxt-Tailwind-Template">GitHub</nuxt-link>.
+        <i-mdi-github style="color: white"
+              class="text-2xl inline mr-3"  />
+        <div class="inline align-bottom">Visit on <nuxt-link to="https://github.com/michaelsynan/Nuxt-Tailwind-Template">GitHub</nuxt-link>.</div>
       </div>
     </div>
   </div>
