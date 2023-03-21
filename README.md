@@ -1,5 +1,5 @@
 
-![Nuxt TailwindCSS Pinia Template Repo](/public/screenshot.png)
+![Nuxt TailwindCSS Pinia Template Repo](/public/nuxt3_tailwind5.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/michaelsynan/Nuxt-Tailwind-Template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -33,4 +33,7 @@ npm run dev
 See this [gist](https://gist.github.com/michaelsynan/307a267eff9b35e1b7f333da5e151e99). 
 
 ## Roadmap
- - [ ] Components Layer via extends
+ - [ ] [Components Layer](https://github.com/michaelsynan/nuxt-base-layer) via extends
+ - [ ] Nuxt 3 Beginners Guide
+ 
+ <br />
