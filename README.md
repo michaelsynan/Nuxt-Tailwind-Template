@@ -6,7 +6,7 @@
 
 # Nuxt Tailwind Template with Pinia 🎉
 
-Website demo: https://michaelsynan.github.io/Nuxt-Tailwind-Template/
+**Website demo:** https://michaelsynan.github.io/Nuxt-Tailwind-Template/
 
 Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets, layouts, pages and components directories set up. 
 
@@ -46,7 +46,7 @@ Take advantage of pre-built components using Nuxt extends.
 See this [gist](https://gist.github.com/michaelsynan/307a267eff9b35e1b7f333da5e151e99). 
 
 ## Roadmap
- - [x] [Components Layer](https://github.com/michaelsynan/nuxt-base-layer) via extends
+ - [x] [Base Layer](https://github.com/michaelsynan/nuxt-base-layer) components via extends
  - [ ] Nuxt 3 Beginners Guide
  
  <br />
