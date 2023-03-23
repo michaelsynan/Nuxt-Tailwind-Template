@@ -15,6 +15,8 @@ export default defineNuxtConfig({
   build: {
     publicPath: '/Nuxt-Tailwind-Template/_nuxt/',
   },
+
+
   modules: [
     '@pinia/nuxt',
     ['unplugin-icons/nuxt', { autoInstall: true }]
