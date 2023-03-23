@@ -17,9 +17,11 @@
       </div>
     </nav>
     <div v-if="isOpen" class="bg-blue-400 p-4 lg:hidden">
-      <nuxt-link to="/" class="block text-white mb-2">Home</nuxt-link>
-      <nuxt-link to="/docs" class="block text-white mb-2">Docs</nuxt-link>
-      <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Templategit" target="_blank" class="block text-white">GitHub</a>
+      <div class="flex flex-col items-center space-y-4">
+        <nuxt-link to="/" class="text-white">Home</nuxt-link>
+        <nuxt-link to="/docs" class="text-white">Docs</nuxt-link>
+        <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Templategit" target="_blank" class="text-white">GitHub</a>
+      </div>
     </div>
   </header>
 </template>
