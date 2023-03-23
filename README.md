@@ -17,6 +17,7 @@ Minimal [Nuxt 3](https://nuxt.com/) Tailwind and Pinia starter repo, with assets
 - Basic base styles
 - Pages directory
 - Default layout
+- Optional [Base Layer](https://github.com/michaelsynan/nuxt-base-layer)  for additional comments via extends
 
 ## Instructions
 ```
@@ -29,11 +30,21 @@ npm install
 npm run dev
 ```
 
+## Enable Base Layer
+
+Uncomment in nuxt.config.ts:
+```
+// uncomment to use base layer repo
+//  extends: [
+//    'github:michaelsynan/nuxt-base-layer#master'
+//  ]
+```
+
 ## Deploy Static Site to GitHub Pages
 See this [gist](https://gist.github.com/michaelsynan/307a267eff9b35e1b7f333da5e151e99). 
 
 ## Roadmap
- - [ ] [Components Layer](https://github.com/michaelsynan/nuxt-base-layer) via extends
+ - [x] [Components Layer](https://github.com/michaelsynan/nuxt-base-layer) via extends
  - [ ] Nuxt 3 Beginners Guide
  
  <br />
