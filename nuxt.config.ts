@@ -6,10 +6,14 @@ import Components from 'unplugin-vue-components/vite'
 
 
 export default defineNuxtConfig({
-  runtimeConfig: {
-    app: {
-      baseURL: '/Nuxt-Tailwind-Template'
-    }
+  target: 'static',
+  router: {
+    base: '/Nuxt-Tailwind-Template/',
+  },
+
+  // Set the publicPath for build files
+  build: {
+    publicPath: '/Nuxt-Tailwind-Template/_nuxt/',
   },
   modules: [
     '@pinia/nuxt',
