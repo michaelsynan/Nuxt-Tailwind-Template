@@ -30,9 +30,11 @@ npm install
 npm run dev
 ```
 
-## Enable Base Layer
+## Enable & Customize Base Layer
+Take advantage of pre-built components using Nuxt extends.
 
-Uncomment in nuxt.config.ts:
+1. Clone the [Base Layer](https://github.com/michaelsynan/nuxt-base-layer) repo.
+2. Uncomment in nuxt.config.ts and update Nuxt config file:
 ```
 // uncomment to use base layer repo
 //  extends: [
