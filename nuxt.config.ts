@@ -6,6 +6,9 @@ import Components from 'unplugin-vue-components/vite'
 
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    baseURL: process.env.BASE_URL,
+  },
   modules: [
     '@pinia/nuxt',
     ['unplugin-icons/nuxt', { autoInstall: true }]
