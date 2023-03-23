@@ -7,7 +7,7 @@
       <div class="hidden lg:flex items-center space-x-4">
         <nuxt-link to="/" class="text-white">Home</nuxt-link>
         <nuxt-link to="/docs" class="text-white">Docs</nuxt-link>
-        <a href="https://github.com" target="_blank" class="text-white">GitHub</a>
+        <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="text-white">GitHub</a>
       </div>
       <div class="lg:hidden">
         <button @click="isOpen = !isOpen" class="text-white">
@@ -19,7 +19,7 @@
     <div v-if="isOpen" class="bg-blue-400 p-4 lg:hidden">
       <nuxt-link to="/" class="block text-white mb-2">Home</nuxt-link>
       <nuxt-link to="/docs" class="block text-white mb-2">Docs</nuxt-link>
-      <a href="https://github.com" target="_blank" class="block text-white">GitHub</a>
+      <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="block text-white">GitHub</a>
     </div>
   </header>
 </template>

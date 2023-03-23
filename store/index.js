@@ -24,6 +24,11 @@ export const useStore = defineStore({
         "id": "3",
         "description": "Description 3",
       }, 
+      {
+        "name": "Base Layer via Extends",
+        "id": "4",
+        "description": "Description 4",
+      }
     ]
   })
 })

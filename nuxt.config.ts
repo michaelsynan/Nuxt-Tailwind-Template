@@ -32,8 +32,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/css/main.css'],
-// uncomment to use base layer repo
-//  extends: [
-//    'github:michaelsynan/nuxt-base-layer#master'
-//  ]
+  extends: [
+    'github:michaelsynan/nuxt-test'
+ ]
 });
