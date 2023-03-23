@@ -5,8 +5,8 @@
         <nuxt-link to="`${$router.options.base}`" class="text-white text-xl font-bold">Nuxt Tailwind Starter</nuxt-link>
       </div>
       <div class="hidden lg:flex items-center space-x-4">
-        <nuxt-link to="`${$router.options.base}`" class="text-white">Home</nuxt-link>
-        <nuxt-link to="`${$router.options.base}docs`" class="text-white">Docs</nuxt-link>
+        <nuxt-link to="/" class="text-white">Home</nuxt-link>
+        <nuxt-link to="`/docs`" class="text-white">Docs</nuxt-link>
         <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="text-white">GitHub</a>
       </div>
       <div class="lg:hidden">
@@ -18,9 +18,9 @@
     </nav>
     <div v-if="isOpen" class="bg-blue-400 p-4 lg:hidden">
       <div class="flex flex-col items-center space-y-4">
-        <nuxt-link to="`${$router.options.base}`" class="text-white">Home</nuxt-link>
-        <nuxt-link to="`${$router.options.base}docs`" class="text-white">Docs</nuxt-link>
-        <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Templategit" target="_blank" class="text-white">GitHub</a>
+        <nuxt-link to="/" class="text-white">Home</nuxt-link>
+        <nuxt-link to="`/docs" class="text-white">Docs</nuxt-link>
+        <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="text-white">GitHub</a>
       </div>
     </div>
   </header>
