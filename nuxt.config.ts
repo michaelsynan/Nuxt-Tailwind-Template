@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     baseURL: process.env.BASE_URL,
   },
+  router: {
+    base: '/Nuxt-Tailwind-Template'
+  },
   modules: [
     '@pinia/nuxt',
     ['unplugin-icons/nuxt', { autoInstall: true }]
