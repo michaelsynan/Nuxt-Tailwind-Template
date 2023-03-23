@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     baseURL: process.env.BASE_URL,
   },
+  build: {
+    publicPath: '/Nuxt-Tailwind-Template/'
+  },
   router: {
     base: '/Nuxt-Tailwind-Template'
   },
