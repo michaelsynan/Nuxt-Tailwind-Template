@@ -19,7 +19,7 @@
     <div v-if="isOpen" class="bg-blue-400 p-4 lg:hidden">
       <nuxt-link to="/" class="block text-white mb-2">Home</nuxt-link>
       <nuxt-link to="/docs" class="block text-white mb-2">Docs</nuxt-link>
-      <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="block text-white">GitHub</a>
+      <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Templategit" target="_blank" class="block text-white">GitHub</a>
     </div>
   </header>
 </template>
