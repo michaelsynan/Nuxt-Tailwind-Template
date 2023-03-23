@@ -11,7 +11,8 @@
       </div>
       <div class="lg:hidden">
         <button @click="isOpen = !isOpen" class="text-white">
-          <i class="fas fa-bars"></i>
+          <i v-if="!isOpen" class="fas fa-bars"></i>
+          <i v-else class="fas fa-times"></i>
         </button>
       </div>
     </nav>
@@ -38,4 +39,3 @@ body {
   padding-top: 4rem;
 }
 </style>
-

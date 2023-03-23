@@ -31,5 +31,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  css: ['@/assets/css/main.css']
+  css: ['@/assets/css/main.css'],
+// uncomment to use base layer repo
+//  extends: [
+//    'github:michaelsynan/nuxt-base-layer#master'
+//  ]
 });
