@@ -4,7 +4,7 @@
   <div class="flex h-screen justify-center items-center px-2.5 max-w-4xl mx-auto">
     <div class="grid grid-cols-5 gap-y-6 gap-x-8 md:gap-x-20">
       <div class="col-span-5">
-        <h1>Nuxt Tailwind Template w/ Pinia 🎉</h1>
+        <h1>Nuxt Tailwind Template <span class="inline-block">w/ Pinia 🎉</span></h1>
       </div>
       <div class="col-span-5 md:col-span-3">
         <CallToAction />

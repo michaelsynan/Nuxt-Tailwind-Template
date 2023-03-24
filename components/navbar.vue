@@ -4,7 +4,7 @@
       <div class="z-50">
         <nuxt-link to="/" class="text-white text-xl font-bold border-none z-50 ">Nuxt Tailwind Starter</nuxt-link>
       </div>
-      <div class="hidden lg:flex items-center space-x-4">
+      <div class="hidden lg:flex items-center space-x-8">
         <nuxt-link to="/" class="text-white border-none">Home</nuxt-link>
         <nuxt-link to="/docs" class="text-white border-none">Docs</nuxt-link>
         <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="text-white border-none">GitHub</a>
@@ -20,7 +20,7 @@
         </button>
       </div>
     </nav>
-    <div id="nav-menu" :class="{ 'menu-open': isOpen }" class="bg-stone-900 p-4 lg:hidden h-1/2 -mt-14 pt-16 z-40 transition-all nav-menu opacity-0">
+    <div id="nav-menu" :class="{ 'menu-open': isOpen }" class="bg-stone-900 p-4 lg:hidden h-1/2 shadow-md -mt-16 pt-20 z-40 transition-all transition-150 nav-menu opacity-0">
       <div class="flex flex-col items-start space-y-4 text-lg">
         <nuxt-link to="/" @click="isOpen = !isOpen" class="text-white border-none">Home</nuxt-link>
         <nuxt-link to="/docs" @click="isOpen = !isOpen" class="text-white border-none">Docs</nuxt-link>
