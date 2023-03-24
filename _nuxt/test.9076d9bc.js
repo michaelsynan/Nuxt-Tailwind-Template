@@ -1,0 +1,1 @@
+import{a as t,b as o,h as n,e as s,o as c,l as a}from"./entry.614bef00.js";const r={},_=s("h1",null,"TEST PAGE",-1);function l(d,f){const e=a("btn");return c(),o("div",null,[_,n(e)])}const p=t(r,[["render",l]]);export{p as default};
