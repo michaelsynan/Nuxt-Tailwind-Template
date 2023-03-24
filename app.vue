@@ -9,6 +9,7 @@
 
 <script>
 import '@/assets/css/main.css'
+
 </script>
 
 <style>
