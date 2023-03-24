@@ -4,7 +4,6 @@
   <div>
     <navbar />
     <slot />
-  <theFooter bg-color="bg-red-500" />
   </div>
 </template>
 

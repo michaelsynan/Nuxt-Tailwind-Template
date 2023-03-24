@@ -1,8 +1,8 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="flex h-screen justify-center items-center px-4 max-w-4xl mx-auto">
-    <div class="grid grid-cols-5 gap-y-2 gap-x-10 md:gap-x-20">
+  <div class="flex h-screen justify-center items-center px-2.5 max-w-4xl mx-auto">
+    <div class="grid grid-cols-5 gap-y-2 gap-x-4 md:gap-x-20">
       <div class="col-span-5">
         <h1>Nuxt Tailwind Template w/ Pinia 🎉</h1>
       </div>
