@@ -6,7 +6,7 @@
       </div>
       <div class="hidden lg:flex items-center space-x-4">
         <nuxt-link to="/" class="text-white">Home</nuxt-link>
-        <nuxt-link to="'router.base'" class="text-white">Docs</nuxt-link>
+        <nuxt-link to="/docs" class="text-white">Docs</nuxt-link>
         <a href="https://github.com/michaelsynan/Nuxt-Tailwind-Template" target="_blank" class="text-white">GitHub</a>
       </div>
       <div class="lg:hidden">
