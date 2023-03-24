@@ -1,0 +1,1 @@
+import{a as e,b as s,o as t,e as o}from"./entry.b1a9c9f2.js";const c={},n={class:"flex h-screen justify-center items-center px-4 max-w-4xl mx-auto min-w-2xl"},a=o("div",{class:"gap-y-2 gap-x-10 md:gap-x-20 text-2xl font-bold"}," Coming soon! ",-1),r=[a];function _(x,d){return t(),s("div",n,r)}const l=e(c,[["render",_]]);export{l as default};
