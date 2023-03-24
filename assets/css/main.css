@@ -40,7 +40,7 @@
     }
 
     li {
-        @apply list-inside;
+        @apply list-outside ml-4 pl-1;
     }
 
 }

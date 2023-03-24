@@ -9,7 +9,7 @@ const items = store.items
     <div class="text-xs text-stone-500">Pinia Component</div>
     <h2>Starter Includes:</h2>
     <ul>
-    <li v-for="(item, index) in items" :key="index">
+    <li v-for="(item, index) in items" :key="index" class="text-sm md:text-base">
       {{ item.name }}
     </li>
     </ul>
