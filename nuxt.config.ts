@@ -4,11 +4,10 @@ import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 
-
 export default defineNuxtConfig({
   target: 'static',
   app: {
-//    baseURL: process.env.BASE_URL || 'http://localhost:3000',
+//  baseURL: process.env.BASE_URL || 'http://localhost:3000',
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: 'Nuxt Tailwind Template',
@@ -27,9 +26,8 @@ export default defineNuxtConfig({
   ],
   pinia: {
     autoImports: [
-      // automatically imports `defineStore`
-      'defineStore', // import { defineStore } from 'pinia'
-      ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+      'defineStore', 
+      ['defineStore', 'definePiniaStore'], 
     ],
   },
   vite: {
@@ -47,7 +45,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/css/main.css'],
-  extends: [
-    'github:michaelsynan/nuxt-base-layer#dev'
- ]
+ // extends: [
+ //   'github:michaelsynan/nuxt-base-layer#master'
+ // ]
 });
