@@ -22,6 +22,7 @@ export default defineNuxtConfig({
 //  },
   modules: [
     '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
     ['unplugin-icons/nuxt', { autoInstall: true }]
   ],
   pinia: {
@@ -47,6 +48,6 @@ export default defineNuxtConfig({
   },
   css: ['@/assets/css/main.css'],
   extends: [
-    'github:michaelsynan/nuxt-test'
+    'github:michaelsynan/nuxt-base-layer#dev'
  ]
 });
