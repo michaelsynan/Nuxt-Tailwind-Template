@@ -1,8 +1,7 @@
 <template>
   <div>
     <navbar />
-      <NuxtPage />
-
+    <NuxtPage />
   </div>
 </template>
 
@@ -23,6 +22,5 @@ import '@/assets/css/main.css'
   opacity: 0;
   filter: blur(.25rem);
 }
-
 
 </style>

@@ -25,7 +25,7 @@ export const useStore = defineStore({
         "description": "Description 3",
       }, 
       {
-        "name": "Base Layer via Extends",
+        "name": "Base Layer via Extends (coming soon)",
         "id": "4",
         "description": "Description 4",
       }
